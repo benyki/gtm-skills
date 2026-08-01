@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "fine dining restaurant elegant",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "The bill", "answer": "La cuenta" },
+    { "prompt": "The waiter", "answer": "El camarero" },
+    { "prompt": "The tip", "answer": "La propina" },
+    { "prompt": "A reservation", "answer": "Una reserva" },
+    { "prompt": "The wine list", "answer": "La carta de vinos" },
+    { "prompt": "Starter", "answer": "El entrante" },
+    { "prompt": "Main course", "answer": "El plato fuerte" },
+    { "prompt": "Homemade", "answer": "Casero" },
+    { "prompt": "Enjoy your meal", "answer": "Buen provecho" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "butcher shop meat counter",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "The butcher", "answer": "El carnicero" },
+    { "prompt": "Beef", "answer": "Carne de res" },
+    { "prompt": "Pork", "answer": "Cerdo" },
+    { "prompt": "Minced meat", "answer": "Carne picada" },
+    { "prompt": "A steak", "answer": "Un filete" },
+    { "prompt": "Boneless", "answer": "Sin hueso" },
+    { "prompt": "Lean", "answer": "Magro" },
+    { "prompt": "Half a kilo", "answer": "Medio kilo" },
+    { "prompt": "Chicken", "answer": "Pollo" }
+  ]
+}

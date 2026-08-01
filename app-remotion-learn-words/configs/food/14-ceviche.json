@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "ceviche peru seafood",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Raw fish", "answer": "Pescado crudo" },
+    { "prompt": "Lime juice", "answer": "Jugo de limón" },
+    { "prompt": "Tiger's milk", "answer": "Leche de tigre" },
+    { "prompt": "Red onion", "answer": "Cebolla morada" },
+    { "prompt": "Hot pepper", "answer": "Ají" },
+    { "prompt": "Sweet potato", "answer": "Camote" },
+    { "prompt": "Fresh", "answer": "Fresco" },
+    { "prompt": "A pinch of salt", "answer": "Pizca de sal" },
+    { "prompt": "Very fresh", "answer": "Bien fresco" }
+  ]
+}

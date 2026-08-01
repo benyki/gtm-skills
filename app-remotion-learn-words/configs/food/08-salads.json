@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "fresh salad bowl",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Lettuce", "answer": "Lechuga" },
+    { "prompt": "Cucumber", "answer": "Pepino" },
+    { "prompt": "Dressing", "answer": "Aderezo" },
+    { "prompt": "Oil", "answer": "Aceite" },
+    { "prompt": "Vinegar", "answer": "Vinagre" },
+    { "prompt": "A pinch of salt", "answer": "Una pizca de sal" },
+    { "prompt": "Chopped", "answer": "Picado" },
+    { "prompt": "Fresh", "answer": "Fresco" },
+    { "prompt": "No onion", "answer": "Sin cebolla" }
+  ]
+}

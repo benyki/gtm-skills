@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "seafood restaurant plate",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Shrimp", "answer": "Camarón" },
+    { "prompt": "Octopus", "answer": "Pulpo" },
+    { "prompt": "Squid", "answer": "Calamar" },
+    { "prompt": "Clams", "answer": "Almejas" },
+    { "prompt": "Mussels", "answer": "Mejillones" },
+    { "prompt": "Crab", "answer": "Cangrejo" },
+    { "prompt": "Fresh fish", "answer": "Pescado fresco" },
+    { "prompt": "Shellfish", "answer": "Mariscos" },
+    { "prompt": "Grilled", "answer": "A la plancha" }
+  ]
+}

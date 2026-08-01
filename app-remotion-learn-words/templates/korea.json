@@ -1,0 +1,60 @@
+{
+    "_comment": "KOREA / Korean template. The answer is shown in REVISED ROMANIZATION (Latin alphabet, green — the phonetics) with the native Korean (Hangul, 한글) on a smaller line BELOW it. Per item: prompt = English shown phrase, answer = romanization revealed in green, native = Hangul shown beneath. The spoken voiceover reads the native Hangul (NOT the romanization). Same Asian-girl character as Japanese, single Korea flag, voice hanabad (default Korean female, native Seoul delivery — round-trip STT verified it reads Hangul naturally) + model eleven_multilingual_v2. Use 9 items per video; keep each romanization answer to ONE line (≤~13 chars) so the two-line answer+Hangul doesn't crowd the 9-row stack — prefer natural short forms (e.g. Annyeong for hi, not the full Annyeonghaseyo). Hangul resolves via Chromium's system-font fallback (no bundled font needed, same as Japanese kana/kanji) — if it ever tofus, bundle Noto Sans KR via fonts[]. Backgrounds: set a Korean bg_query per video; a Pexels miss falls back to the curated versatile-korean pool (so it never pulls a wrong-country image).",
+    "language": "Korean",
+    "voice": "hanabad",
+    "model": "eleven_multilingual_v2",
+    "character": "~/code/<project>/assets/universe/chinese-girl-no-bg.png",
+    "flags": [
+        "kr"
+    ],
+    "fonts": [],
+    "bg_query": "Seoul street night",
+    "outro": "Follow me to learn Korean every day",
+    "items": [
+        {
+            "prompt": "Hello",
+            "answer": "Annyeong",
+            "native": "안녕"
+        },
+        {
+            "prompt": "Thank you",
+            "answer": "Gamsahamnida",
+            "native": "감사합니다"
+        },
+        {
+            "prompt": "Yes",
+            "answer": "Ne",
+            "native": "네"
+        },
+        {
+            "prompt": "No",
+            "answer": "Aniyo",
+            "native": "아니요"
+        },
+        {
+            "prompt": "Sorry",
+            "answer": "Mianhaeyo",
+            "native": "미안해요"
+        },
+        {
+            "prompt": "Goodbye",
+            "answer": "Jal ga",
+            "native": "잘 가"
+        },
+        {
+            "prompt": "Nice to meet you",
+            "answer": "Bangawoyo",
+            "native": "반가워요"
+        },
+        {
+            "prompt": "Good morning",
+            "answer": "Joeun achim",
+            "native": "좋은 아침"
+        },
+        {
+            "prompt": "Excuse me",
+            "answer": "Jeogiyo",
+            "native": "저기요"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+  "_guidance": "STARTER CONFIG. Replace all content with YOUR study. This is the worked 'dream-incubation' example so you can see each beat done well; keep the structure, swap the words/numbers. Read references/scene-arc.md first. Every on-screen number must trace to source.md. Rules: no comma-lists in any 'vo' (TTS reads them badly); NO em dashes and NO middle-dot/bullet characters in any on-screen string or caption (rephrase with a comma, a colon, 'or'/'vs', or a line break). Beat 6 (ask-yourself) is REQUIRED and authored fresh. Target 55-75s.",
+  "brand": "YOUR BRAND",
+  "accent": "#9A90F5",
+  "voice": "river-faith",
+  "voice_fallback": "adam-spencer",
+  "model": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.6,
+    "similarity": 0.85,
+    "style": 0.08,
+    "speaker_boost": true
+  },
+  "gap": 0.4,
+  "clip_cache": "~/.cache/video-study/clips",
+  "scenes": [
+    {
+      "id": "hook",
+      "kind": "hook",
+      "query": "night sky stars slow moving clouds",
+      "vo": "What if you could solve a hard problem in your sleep, on purpose?",
+      "min": 3.2,
+      "kicker": "NEW STUDY: DREAM SCIENCE",
+      "title": "Can you solve\na problem\nin your sleep?"
+    },
+    {
+      "id": "study",
+      "kind": "counters",
+      "query": "sleep laboratory brain scan electrodes person sleeping",
+      "vo": "This year a team at Northwestern decided to actually test it. They handed twenty experienced dreamers a stack of tricky brain teasers, and quietly paired each puzzle with its own little soundtrack.",
+      "kicker": "THE EXPERIMENT",
+      "title": "So a lab\nran the test",
+      "sub": "Neuroscience of Consciousness, 2026",
+      "counters": [
+        { "label": "DREAMERS", "to": 20 },
+        { "label": "MINUTES PER PUZZLE", "to": 3 },
+        { "label": "MOSTLY LEFT UNSOLVED", "to": 100, "suffix": "%" }
+      ]
+    },
+    {
+      "id": "headline",
+      "kind": "bignum",
+      "query": "abstract blue brain waves glowing dark",
+      "vo": "Then, deep in REM sleep, the researchers softly replayed one of those sounds. And three out of four dreamers began dreaming about the exact puzzle it was tied to.",
+      "kicker": "WHAT HAPPENED NEXT",
+      "title": "The dream\ntook the bait",
+      "bignum": "75%",
+      "sub": "dreamed about the very puzzle they were cued with"
+    },
+    {
+      "id": "comparison",
+      "kind": "bars",
+      "query": "morning light waking up window calm",
+      "vo": "And here is the part that really matters. The puzzles they had dreamed about were solved forty two percent of the time the next morning. The ones left out of the dream, only seventeen.",
+      "kicker": "THE PAYOFF",
+      "title": "And they solved\nmore of them",
+      "sub": "next-morning solve rate",
+      "bars": [
+        { "label": "Cued inside a dream: 42%", "value": 42, "hot": true },
+        { "label": "Never cued: 17%", "value": 17 }
+      ]
+    },
+    {
+      "id": "detail",
+      "kind": "title",
+      "query": "abstract fog silhouette figure dark",
+      "vo": "One moment stayed with the scientists. A sleeping volunteer, not even aware they were dreaming, turned to a figure inside their own dream and simply asked them for help.",
+      "kicker": "THE STRIKING DETAIL",
+      "title": "One dreamer asked\nfor help",
+      "sub": "inside the dream, a character was handed the puzzle"
+    },
+    {
+      "id": "ask",
+      "kind": "title",
+      "query": "person lying awake in bed at night thinking",
+      "vo": "So here is the thing to sit with tonight. Your mind does not clock out the moment you do. If it keeps quietly turning over whatever you fed it last, what problem would you choose to carry into the dark?",
+      "kicker": "ASK YOURSELF",
+      "title": "What would you\nhand to the night?",
+      "sub": "the mind keeps working long after you close your eyes"
+    },
+    {
+      "id": "outro",
+      "kind": "outro",
+      "query": "milky way galaxy stars night sky",
+      "vo": "Maybe sleeping on it was never really just an expression.",
+      "min": 4.0,
+      "kicker": "YOUR BRAND",
+      "title": "Sleep on it,\nliterally",
+      "sub": "☾  the science of the everyday mind"
+    }
+  ]
+}

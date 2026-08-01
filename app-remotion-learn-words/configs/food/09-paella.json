@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish paella valencia",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Rice", "answer": "Arroz" },
+    { "prompt": "Saffron", "answer": "Azafrán" },
+    { "prompt": "Toasted crust", "answer": "El socarrat" },
+    { "prompt": "Shrimp", "answer": "Gambas" },
+    { "prompt": "Mussels", "answer": "Mejillones" },
+    { "prompt": "Rabbit", "answer": "Conejo" },
+    { "prompt": "Green beans", "answer": "Judías verdes" },
+    { "prompt": "Broth", "answer": "Caldo" },
+    { "prompt": "Over wood fire", "answer": "A la leña" }
+  ]
+}

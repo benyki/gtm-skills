@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "mexican taqueria street stand",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Onion", "answer": "Cebolla" },
+    { "prompt": "Bell pepper", "answer": "Pimiento" },
+    { "prompt": "Meat", "answer": "Carne" },
+    { "prompt": "Melted cheese", "answer": "Queso fundido" },
+    { "prompt": "A soda", "answer": "Un refresco" },
+    { "prompt": "A straw", "answer": "Un popote" },
+    { "prompt": "The counter", "answer": "La barra" },
+    { "prompt": "The grill", "answer": "La parrilla" },
+    { "prompt": "With everything", "answer": "Con todo" }
+  ]
+}

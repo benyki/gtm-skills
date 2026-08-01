@@ -1,0 +1,17 @@
+{
+  "_comment": "Reusable SFX in ~/.agents/skills/elevenlabs/assets/sounds/. Used as tick/timer beds in the gaps of guess-the-word style videos. Paths are relative to $HOME/code/_shared/medias/sounds/.",
+  "base_dir": "$HOME/code/_shared/medias/sounds",
+  "defaults": {
+    "guess_pause_tick": "clock-tac-soft.mp3"
+  },
+  "effects": {
+    "clock-tac-soft.mp3":   { "duration_s": 5.0,  "kind": "clock", "notes": "Soft tac-tac clock. Current default guess-pause bed (trim to ~2.3s)." },
+    "clock-dark.mp3":       { "duration_s": 5.0,  "kind": "clock", "notes": "Darker/heavier clock tick." },
+    "clock-vintage.mp3":    { "duration_s": 5.0,  "kind": "clock", "notes": "Vintage clock tick." },
+    "clock.mp3":            { "duration_s": 30.0, "kind": "clock", "notes": "Long plain clock loop." },
+    "clock-slow.mp3":       { "duration_s": 30.0, "kind": "clock", "notes": "Long slow clock loop." },
+    "tick-fast.mp3":        { "duration_s": 8.0,  "kind": "tick",  "notes": "Fast ticking, higher tension." },
+    "bell-victorian.mp3":   { "duration_s": 4.88, "kind": "bell",  "notes": "Victorian bell — reveal/accent." },
+    "guess-pause-tick.mp3": { "duration_s": 2.37, "kind": "tick",  "notes": "Quiet tick isolated from the original @elodie.french TikTok. Low level (~-48dB)." }
+  }
+}

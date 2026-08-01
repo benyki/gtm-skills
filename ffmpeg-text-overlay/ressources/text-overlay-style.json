@@ -1,0 +1,49 @@
+{
+  "reference_width": 1080,
+  "font": {
+    "name": "TikTok Sans",
+    "file": "TikTokSans/TikTokSans-VariableFont_opsz,slnt,wdth,wght.ttf",
+    "bold": 0,
+    "italic": 0,
+    "underline": 0,
+    "strikeout": 0,
+    "weight_label": "semibold",
+    "weight_value": 600,
+    "scale_x": 100,
+    "scale_y": 100,
+    "angle": 0,
+    "encoding": 1
+  },
+  "layout": {
+    "overlay_position_pct": 33.0,
+    "wrap_style": 2,
+    "spacing": -2.2,
+    "line_height_ratio": 1.05,
+    "paragraph_gap_ratio": 0.5,
+    "alignment": 5,
+    "margin_l": 0,
+    "margin_r": 0,
+    "margin_v": 0
+  },
+  "sizing": {
+    "base_font_size": 74
+  },
+  "stroke": {
+    "outline_ratio": 0.0675,
+    "min_outline": 3,
+    "border_style": 1,
+    "shadow": 0
+  },
+  "colors": {
+    "primary": "&H00FFFFFF",
+    "secondary": "&H00FFFFFF",
+    "outline": "&H00000000",
+    "back": "&H00000000"
+  },
+  "chars_per_line": {
+    "latin": 30,
+    "rtl": 21,
+    "abugida": 23,
+    "cjk": 13
+  }
+}

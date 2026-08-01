@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "cozy coffee shop cafe",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Coffee with milk", "answer": "Café con leche" },
+    { "prompt": "Black coffee", "answer": "Café solo" },
+    { "prompt": "Decaf", "answer": "Descafeinado" },
+    { "prompt": "To go", "answer": "Para llevar" },
+    { "prompt": "Sugar", "answer": "Azúcar" },
+    { "prompt": "A spoon", "answer": "Una cuchara" },
+    { "prompt": "Lukewarm", "answer": "Tibio" },
+    { "prompt": "Sweet bread", "answer": "Pan dulce" },
+    { "prompt": "The bill", "answer": "La cuenta" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+    "_comment": "JAPAN / Japanese template. The answer is shown in ROMAJI (Latin alphabet, green — the phonetics) with the native Japanese (kana/kanji) on a smaller line BELOW it. Per item: prompt = English shown phrase, answer = romaji revealed in green, native = Japanese script shown beneath. The spoken voiceover reads the native Japanese. Asian-girl character, single Japan flag, voice kazuha (default Japanese female, native JA delivery). Use 9 items per video; keep each romaji answer to ONE line (≤~13 chars) so the two-line answer+native doesn't crowd the 9-row stack. Backgrounds: set a Japanese bg_query per video (no versatile-japanese fallback exists).",
+    "language": "Japanese",
+    "voice": "kazuha",
+    "model": "eleven_multilingual_v2",
+    "character": "~/code/<project>/assets/universe/chinese-girl-no-bg.png",
+    "flags": [
+        "jp"
+    ],
+    "fonts": [],
+    "bg_query": "Tokyo street",
+    "outro": "Follow me to learn Japanese every day",
+    "items": [
+        {
+            "prompt": "Hello",
+            "answer": "Konnichiwa",
+            "native": "こんにちは"
+        },
+        {
+            "prompt": "Thank you",
+            "answer": "Arigatou",
+            "native": "ありがとう"
+        },
+        {
+            "prompt": "Good morning",
+            "answer": "Ohayou",
+            "native": "おはよう"
+        },
+        {
+            "prompt": "Yes",
+            "answer": "Hai",
+            "native": "はい"
+        },
+        {
+            "prompt": "No",
+            "answer": "Iie",
+            "native": "いいえ"
+        },
+        {
+            "prompt": "Sorry",
+            "answer": "Gomen nasai",
+            "native": "ごめんなさい"
+        },
+        {
+            "prompt": "Goodbye",
+            "answer": "Sayounara",
+            "native": "さようなら"
+        },
+        {
+            "prompt": "Good evening",
+            "answer": "Konbanwa",
+            "native": "こんばんは"
+        },
+        {
+            "prompt": "Excuse me",
+            "answer": "Sumimasen",
+            "native": "すみません"
+        }
+    ]
+}

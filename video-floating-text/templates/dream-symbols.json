@@ -1,0 +1,57 @@
+{
+  "description": "science-brand 'Dream symbols you should not ignore' — hardcoded hook, dream symbol (max 38 chars), meaning (max 3 lines), on bed/chill UGC backgrounds. Same anchored layout + style as poetry-caps.",
+  "output": {
+    "dir": "~/code/<project>/world/videos/dream-symbols/ready",
+    "filename_pattern": "{idx:02d}-{slug}.mp4"
+  },
+  "background": {
+    "paths": ["~/videos/ugc/bed", "~/videos/chill"],
+    "recursive": true,
+    "extensions": [".mp4", ".mov", ".m4v"],
+    "random": true,
+    "seed": 42
+  },
+  "data": {
+    "path": "~/code/<project>/world/videos/dream-symbols/symbols.json",
+    "items_path": "symbols",
+    "name_key": "symbol"
+  },
+  "crop": { "w": 608, "h": 1080 },
+  "outline_px": 1,
+  "spacer_size": 70,
+  "layout": "anchored",
+  "geometry": {
+    "phrase_center_y": 830,
+    "gap_px": 180
+  },
+  "elements": [
+    {
+      "name": "hook",
+      "source": "literal",
+      "value": "Dream symbols you should not ignore",
+      "font": "PT Serif",
+      "size": 70,
+      "italic": true
+    },
+    {
+      "name": "symbol",
+      "source": "data",
+      "data_key": "symbol",
+      "font": "Inter 24pt",
+      "size": 120,
+      "bold": true,
+      "case": "upper",
+      "max_chars": 38
+    },
+    {
+      "name": "meaning",
+      "source": "data",
+      "data_key": "meaning",
+      "font": "Inter 24pt",
+      "size": 52,
+      "bold": true,
+      "wrap_chars": 34,
+      "max_lines": 5
+    }
+  ]
+}

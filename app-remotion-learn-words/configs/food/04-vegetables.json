@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "fresh vegetable market",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Onion", "answer": "Cebolla" },
+    { "prompt": "Carrot", "answer": "Zanahoria" },
+    { "prompt": "Pumpkin", "answer": "Calabaza" },
+    { "prompt": "Beet", "answer": "Remolacha" },
+    { "prompt": "Green beans", "answer": "Judías verdes" },
+    { "prompt": "Eggplant", "answer": "Berenjena" },
+    { "prompt": "Cabbage", "answer": "Repollo" },
+    { "prompt": "Garlic", "answer": "Ajo" },
+    { "prompt": "Mushroom", "answer": "Champiñón" }
+  ]
+}

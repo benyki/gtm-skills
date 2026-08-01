@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "mexican food colorful",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Beans", "answer": "Frijoles" },
+    { "prompt": "Pork", "answer": "Puerco" },
+    { "prompt": "Shredded beef", "answer": "Carne deshebrada" },
+    { "prompt": "Corn on the cob", "answer": "Elote" },
+    { "prompt": "Sour cream", "answer": "Crema" },
+    { "prompt": "Pickled", "answer": "En escabeche" },
+    { "prompt": "To go", "answer": "Para llevar" },
+    { "prompt": "Spicy", "answer": "Picante" },
+    { "prompt": "Just a little", "answer": "Un poquito" }
+  ]
+}

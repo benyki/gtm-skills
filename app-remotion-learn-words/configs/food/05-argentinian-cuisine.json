@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "argentina asado grill barbecue",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "The barbecue", "answer": "El asado" },
+    { "prompt": "The grill", "answer": "La parrilla" },
+    { "prompt": "Blood sausage", "answer": "Morcilla" },
+    { "prompt": "Sweetbreads", "answer": "Mollejas" },
+    { "prompt": "Avocado", "answer": "Palta" },
+    { "prompt": "Corn", "answer": "Choclo" },
+    { "prompt": "The grill cook", "answer": "El parrillero" },
+    { "prompt": "Well done", "answer": "Bien cocido" },
+    { "prompt": "Juicy", "answer": "Jugoso" }
+  ]
+}

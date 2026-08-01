@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish breakfast cafe",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Scrambled eggs", "answer": "Huevos revueltos" },
+    { "prompt": "Fried egg", "answer": "Huevo frito" },
+    { "prompt": "Toast", "answer": "Tostada" },
+    { "prompt": "Orange juice", "answer": "Jugo de naranja" },
+    { "prompt": "Coffee with milk", "answer": "Café con leche" },
+    { "prompt": "Butter", "answer": "Mantequilla" },
+    { "prompt": "Jam", "answer": "Mermelada" },
+    { "prompt": "Ground", "answer": "Molido" },
+    { "prompt": "Warm", "answer": "Tibio" }
+  ]
+}

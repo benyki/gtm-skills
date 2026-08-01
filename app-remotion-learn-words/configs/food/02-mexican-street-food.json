@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "mexican street food",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Onion", "answer": "Cebolla" },
+    { "prompt": "Chopped", "answer": "Picado" },
+    { "prompt": "Melted cheese", "answer": "Queso fundido" },
+    { "prompt": "Grilled meat", "answer": "Carne asada" },
+    { "prompt": "A straw", "answer": "Un popote" },
+    { "prompt": "Is it spicy?", "answer": "¿Pica?" },
+    { "prompt": "The grill", "answer": "La parrilla" },
+    { "prompt": "The counter", "answer": "La barra" },
+    { "prompt": "A napkin", "answer": "Una servilleta" }
+  ]
+}

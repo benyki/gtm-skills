@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "peruvian food dish",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Raw fish", "answer": "Pescado crudo" },
+    { "prompt": "Tiger's milk", "answer": "Leche de tigre" },
+    { "prompt": "Sweet potato", "answer": "Camote" },
+    { "prompt": "Corn", "answer": "Choclo" },
+    { "prompt": "Hot pepper", "answer": "Ají" },
+    { "prompt": "Avocado", "answer": "Palta" },
+    { "prompt": "Stir-fried", "answer": "Salteado" },
+    { "prompt": "Spicy", "answer": "Picante" },
+    { "prompt": "Delicious", "answer": "Riquísimo" }
+  ]
+}

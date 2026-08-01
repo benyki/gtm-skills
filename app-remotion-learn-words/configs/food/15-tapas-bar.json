@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish tapas bar",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "A serving", "answer": "Una ración" },
+    { "prompt": "Half serving", "answer": "Media ración" },
+    { "prompt": "On the house", "answer": "Invita la casa" },
+    { "prompt": "The counter", "answer": "La barra" },
+    { "prompt": "A toothpick", "answer": "Un palillo" },
+    { "prompt": "Olives", "answer": "Aceitunas" },
+    { "prompt": "A small beer", "answer": "Una caña" },
+    { "prompt": "Cured ham", "answer": "Jamón serrano" },
+    { "prompt": "Another round", "answer": "Otra ronda" }
+  ]
+}

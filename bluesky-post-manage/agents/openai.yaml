@@ -1,0 +1,69 @@
+name: bluesky-post-manage
+display_name: Bluesky Post & Account Manager
+description: >
+  Post to Bluesky and manage multiple Bluesky accounts via the AT Protocol API.
+  Covers text, rich text, images, threads, quote posts, replies, deletion,
+  notifications, timeline reads, and the firehose.
+version: 1.0.0
+icon: 🦋
+tags:
+  - bluesky
+  - atproto
+  - social
+  - posting
+  - api
+  - bot
+
+# Runtime expectations
+runtime:
+  node: ">=20.6"
+  package_manager: npm
+
+# Direct npm dependencies the skill's scripts assume are installed in the
+# working project (or globally available). The skill itself does not vendor
+# them — agents should install if missing.
+dependencies:
+  npm:
+    - name: "@atproto/api"
+      version: "^0.13"
+
+# Files the agent should know about
+entrypoints:
+  - path: scripts/post.mjs
+    purpose: post text (optionally as reply or quote)
+  - path: scripts/post-image.mjs
+    purpose: post text + 1–4 images
+  - path: scripts/delete-record.mjs
+    purpose: delete any record by at:// URI
+  - path: scripts/list-accounts.mjs
+    purpose: enumerate configured accounts and verify login
+  - path: scripts/read-timeline.mjs
+    purpose: print home timeline
+  - path: scripts/read-notifications.mjs
+    purpose: print notifications, optionally mark as seen
+  - path: scripts/resolve-did.sh
+    purpose: handle → DID lookup (no auth)
+
+references:
+  - path: references/auth.md
+  - path: references/posting.md
+  - path: references/accounts.md
+  - path: references/endpoints.md
+  - path: references/env.md
+
+assets:
+  - path: assets/env.example
+
+# Required environment variables (per account)
+env:
+  required_per_account:
+    - BSKY_ACCOUNT_<NAME>_HANDLE
+    - BSKY_ACCOUNT_<NAME>_APP_PASSWORD
+  optional_per_account:
+    - BSKY_ACCOUNT_<NAME>_DID
+    - BSKY_ACCOUNT_<NAME>_PDS_URL
+  loading_strategy: "node --env-file=~/.agents/.env <script>"
+
+permissions:
+  - network: outbound HTTPS to bsky.social / public.api.bsky.app / *.bsky.network
+  - filesystem: read images for posting; read/write ~/.agents/.env (user-managed)

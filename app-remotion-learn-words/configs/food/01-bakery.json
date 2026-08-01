@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish bakery bread",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Fresh bread", "answer": "Pan fresco" },
+    { "prompt": "A loaf", "answer": "Una barra" },
+    { "prompt": "The crust", "answer": "La corteza" },
+    { "prompt": "Whole wheat", "answer": "Integral" },
+    { "prompt": "A bun", "answer": "Un bollo" },
+    { "prompt": "Sliced", "answer": "Rebanado" },
+    { "prompt": "Just baked", "answer": "Recién hecho" },
+    { "prompt": "Crumbs", "answer": "Las migas" },
+    { "prompt": "The baker", "answer": "El panadero" }
+  ]
+}

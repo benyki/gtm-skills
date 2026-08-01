@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish restaurant table food",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "The set menu", "answer": "El menú del día" },
+    { "prompt": "A serving", "answer": "Una ración" },
+    { "prompt": "The bill", "answer": "La cuenta" },
+    { "prompt": "Sparkling water", "answer": "Agua con gas" },
+    { "prompt": "Still water", "answer": "Agua sin gas" },
+    { "prompt": "Bread included", "answer": "Pan incluido" },
+    { "prompt": "The waiter", "answer": "El camarero" },
+    { "prompt": "Homemade", "answer": "Casero" },
+    { "prompt": "To share", "answer": "Para compartir" }
+  ]
+}

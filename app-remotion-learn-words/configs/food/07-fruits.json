@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "fresh fruit market",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Strawberry", "answer": "Fresa" },
+    { "prompt": "Peach", "answer": "Durazno" },
+    { "prompt": "Pineapple", "answer": "Piña" },
+    { "prompt": "Watermelon", "answer": "Sandía" },
+    { "prompt": "Grape", "answer": "Uva" },
+    { "prompt": "Apple", "answer": "Manzana" },
+    { "prompt": "Plum", "answer": "Ciruela" },
+    { "prompt": "Blackberry", "answer": "Mora" },
+    { "prompt": "Ripe", "answer": "Maduro" }
+  ]
+}

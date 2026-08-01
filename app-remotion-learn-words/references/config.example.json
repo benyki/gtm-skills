@@ -1,0 +1,21 @@
+{
+  "_comment": "Minimal config: only language + per-item {prompt, answer} are required (legacy {en, fr} still accepted). build.sh derives q/a (cadence), q_text ('How do we say <prompt> in <language>?'), a_text (answer + terminal '.'), and total_seconds. prompt/answer must each be ≤44 chars. flags = ISO-3166 alpha-2 codes -> real flag images (list of one = single flag); omit for the legacy tricolor. fonts = extra webfont files in assets/fonts/ for non-Latin scripts.",
+  "language": "French",
+  "voice": "amelie",
+  "character": "~/code/<project>/assets/universe/french-no-bg.png",
+  "bg_query": "paris cafe terrace street",
+  "outro": "Follow me to learn French every day",
+  "flags": ["fr"],
+  "fonts": [],
+  "items": [
+    { "prompt": "I'm hungry",         "answer": "J'ai faim" },
+    { "prompt": "I'm thirsty",        "answer": "J'ai soif" },
+    { "prompt": "The menu please",    "answer": "Le menu s'il vous plaît" },
+    { "prompt": "I'd like a dessert", "answer": "Je voudrais un dessert" },
+    { "prompt": "It's delicious",     "answer": "C'est délicieux" },
+    { "prompt": "The bill please",    "answer": "L'addition s'il vous plaît" },
+    { "prompt": "Cheese",             "answer": "Le fromage" },
+    { "prompt": "A coffee",           "answer": "Un café" },
+    { "prompt": "Bread",              "answer": "Le pain" }
+  ]
+}

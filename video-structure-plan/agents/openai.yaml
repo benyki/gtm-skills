@@ -1,0 +1,21 @@
+name: video-structure-plan
+description: >
+  Turns a concept or social media URL into an execution-ready VideoArchitecture JSON.
+  Outputs segments with background footage queries, duration, optional text/image overlays,
+  voice script, and music background spec. Pure planning step — no rendering or API calls.
+
+metadata:
+  category: video
+  tags: [video, planning, architecture, tiktok, reels, shorts, json]
+  output_format: json
+
+tools:
+  - type: bash
+    description: Run fetch-social-meta.sh to extract metadata from a social media URL
+  - type: read
+    description: Read platform-specs.md and segment-patterns.md from references/
+
+dependencies:
+  skills:
+    - agent-browser   # fallback when yt-dlp can't fetch metadata
+    - yt-dlp          # primary social media metadata extraction

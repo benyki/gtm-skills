@@ -1,0 +1,64 @@
+{
+  "_comment": "EXAMPLE registry — fictional entries showing the schema. Real registries are auto-created as state/<template>.json on first render.",
+  "renders": [
+    {
+      "ts": "2026-01-01T12:00:00+00:00",
+      "idx": 1,
+      "data_key": "serendipity",
+      "clip": "~/videos/nature/001.mp4",
+      "output": "~/code/<project>/world/videos/example/ready/01-serendipity.mp4",
+      "elements": [
+        {
+          "name": "hook",
+          "lines": [
+            "English words that sound like poetry Part 1"
+          ]
+        },
+        {
+          "name": "phrase",
+          "lines": [
+            "SERENDIPITY"
+          ]
+        },
+        {
+          "name": "definition",
+          "lines": [
+            "finding something wonderful",
+            "while looking for something",
+            "else entirely"
+          ]
+        }
+      ]
+    },
+    {
+      "ts": "2026-01-01T12:00:05+00:00",
+      "idx": 2,
+      "data_key": "petrichor",
+      "clip": "~/videos/nature/002.mp4",
+      "output": "~/code/<project>/world/videos/example/ready/02-petrichor.mp4",
+      "elements": [
+        {
+          "name": "hook",
+          "lines": [
+            "English words that sound like poetry Part 2"
+          ]
+        },
+        {
+          "name": "phrase",
+          "lines": [
+            "PETRICHOR"
+          ]
+        },
+        {
+          "name": "definition",
+          "lines": [
+            "the smell of the earth",
+            "after the first rain"
+          ]
+        }
+      ]
+    }
+  ],
+  "used_data_keys": ["serendipity", "petrichor"],
+  "used_clips": ["~/videos/nature/001.mp4", "~/videos/nature/002.mp4"]
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "SPAIN / Spanish template. Latina character, row of 5 flags (Mexico, Colombia, Argentina, USA, Spain), Costa Rican voice (melissa). Background falls back to the curated versatile-spanish pool if no bg_query / Pexels miss. Override items[] with your own phrases.",
+  "language": "Spanish",
+  "voice": "melissa",
+  "character": "~/code/<project>/assets/universe/latina-2-no-bg.png",
+  "flags": ["mx", "co", "ar", "us", "es"],
+  "fonts": [],
+  "bg_query": "spanish market",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "I'm hungry",         "answer": "Tengo hambre" },
+    { "prompt": "I'm thirsty",        "answer": "Tengo sed" },
+    { "prompt": "The menu please",    "answer": "La carta, por favor" },
+    { "prompt": "I'd like a dessert", "answer": "Quisiera un postre" },
+    { "prompt": "It's delicious",     "answer": "Está delicioso" },
+    { "prompt": "The bill please",    "answer": "La cuenta, por favor" },
+    { "prompt": "Cheese",             "answer": "El queso" },
+    { "prompt": "A coffee",           "answer": "Un café" },
+    { "prompt": "Bread",              "answer": "El pan" }
+  ]
+}

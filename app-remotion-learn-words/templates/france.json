@@ -1,0 +1,21 @@
+{
+  "_comment": "FRANCE template. Base look/voice/flags/character for French videos. Override items[] (and anything else) with your own phrases JSON. prompt = shown phrase (English), answer = translation revealed in green. Only prompt/answer are required per item; timing/spoken-lines/duration are derived by build.sh.",
+  "language": "French",
+  "voice": "amelie",
+  "character": "~/code/<project>/assets/universe/french-no-bg.png",
+  "flags": ["fr"],
+  "fonts": [],
+  "bg_query": "paris cafe terrace",
+  "outro": "Follow me to learn French every day",
+  "items": [
+    { "prompt": "I'm hungry",         "answer": "J'ai faim" },
+    { "prompt": "I'm thirsty",        "answer": "J'ai soif" },
+    { "prompt": "The menu please",    "answer": "Le menu s'il vous plaît" },
+    { "prompt": "I'd like a dessert", "answer": "Je voudrais un dessert" },
+    { "prompt": "It's delicious",     "answer": "C'est délicieux" },
+    { "prompt": "The bill please",    "answer": "L'addition s'il vous plaît" },
+    { "prompt": "Cheese",             "answer": "Le fromage" },
+    { "prompt": "A coffee",           "answer": "Un café" },
+    { "prompt": "Bread",              "answer": "Le pain" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+    "_comment": "ARABIC template (Egyptian + Levantine MIX — never labelled on screen). The answer is shown as TRANSLITERATION in Latin letters (green — the phonetics), with the native ARABIC SCRIPT on a smaller line BELOW it. Per item: prompt = English shown phrase, answer = transliteration revealed in green (keep ≤13 chars so it stays ONE line), native = Arabic script shown beneath. The spoken voiceover reads the native Arabic. Middle-Eastern character, ROW of flags (eg/lb/jo/sy/ps) to signal 'many dialects', voice salma (default Arabic Levantine female) + model eleven_multilingual_v2. ARABIC IS RTL — Chromium's bidi handles direction inside an Arabic run automatically; we bundle Cairo.ttf so glyphs JOIN and never tofu (listed in fonts[], copied to public/fonts/ by build.sh, appended to the font stack by src/font.ts). Keep to ~7 items so the two-line answers don't crowd. Backgrounds: set an Arab-world bg_query per video; a Pexels miss falls back to the curated versatile-arabic pool (so it never pulls a wrong-region image). Pick whichever everyday spoken form (Egyptian or Levantine) is most natural per word and let viewers argue in the comments.",
+    "language": "Arabic",
+    "voice": "salma",
+    "model": "eleven_multilingual_v2",
+    "character": "~/code/<project>/assets/universe/middle-east-no-bg.png",
+    "flags": [
+        "eg",
+        "lb",
+        "jo",
+        "sy",
+        "ps"
+    ],
+    "fonts": [
+        "Cairo.ttf"
+    ],
+    "bg_query": "Cairo street",
+    "outro": "Follow me to learn Arabic every day",
+    "items": [
+        {
+            "prompt": "Hello",
+            "answer": "Marhaba",
+            "native": "مرحبا"
+        },
+        {
+            "prompt": "Good morning",
+            "answer": "Sabah lkheir",
+            "native": "صباح الخير"
+        },
+        {
+            "prompt": "How are you?",
+            "answer": "Kifak",
+            "native": "كيفك"
+        },
+        {
+            "prompt": "Thank you",
+            "answer": "Shukran",
+            "native": "شكراً"
+        },
+        {
+            "prompt": "Please",
+            "answer": "Min fadlak",
+            "native": "من فضلك"
+        },
+        {
+            "prompt": "Sorry",
+            "answer": "Asif",
+            "native": "آسف"
+        },
+        {
+            "prompt": "Let's go!",
+            "answer": "Yalla",
+            "native": "يلا"
+        }
+    ]
+}

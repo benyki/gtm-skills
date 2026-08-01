@@ -1,0 +1,16 @@
+interface:
+  display_name: "Pinterest Download Videos"
+  short_description: "Search Pinterest by keyword and download the first N videos."
+  brand_color: "#E60023"
+  default_prompt: "Use pinterest-download-videos to grab 5 Pinterest videos for the keyword '<keyword>' into ~/videos/ugc."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  binaries:
+    - yt-dlp
+    - python3
+    - curl
+  network:
+    - pinterest.com

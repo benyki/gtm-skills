@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "spanish dessert sweet",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "Rice pudding", "answer": "Arroz con leche" },
+    { "prompt": "Whipped cream", "answer": "Nata" },
+    { "prompt": "Caramel", "answer": "Caramelo" },
+    { "prompt": "Honey", "answer": "Miel" },
+    { "prompt": "Cinnamon", "answer": "Canela" },
+    { "prompt": "Walnut", "answer": "Nuez" },
+    { "prompt": "A slice", "answer": "Una porción" },
+    { "prompt": "Homemade", "answer": "Casero" },
+    { "prompt": "So sweet", "answer": "Muy dulce" }
+  ]
+}

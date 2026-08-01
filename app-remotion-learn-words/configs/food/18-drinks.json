@@ -1,0 +1,16 @@
+{
+  "language": "Spanish",
+  "bg_query": "refreshing soft drinks",
+  "outro": "Follow me to learn Spanish every day",
+  "items": [
+    { "prompt": "A soda", "answer": "Un refresco" },
+    { "prompt": "Sparkling water", "answer": "Agua con gas" },
+    { "prompt": "Still water", "answer": "Agua sin gas" },
+    { "prompt": "Juice", "answer": "Jugo" },
+    { "prompt": "With ice", "answer": "Con hielo" },
+    { "prompt": "No ice", "answer": "Sin hielo" },
+    { "prompt": "A straw", "answer": "Una pajita" },
+    { "prompt": "A glass", "answer": "Un vaso" },
+    { "prompt": "Very cold", "answer": "Bien frío" }
+  ]
+}

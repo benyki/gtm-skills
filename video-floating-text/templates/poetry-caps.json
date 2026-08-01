@@ -1,0 +1,59 @@
+{
+  "description": "YourApp 'English words that sound like poetry / Part N' — PT Serif italic hook (split before ' Part'), Inter Black ALL CAPS phrase, Inter Black definition. Anchored layout, 1px outline, night-drive B-roll.",
+  "output": {
+    "dir": "~/code/<project>/world/videos/highway-def/ready-2",
+    "filename_pattern": "{idx:02d}-{slug}.mp4"
+  },
+  "background": {
+    "paths": ["~/videos/highway/90s"],
+    "recursive": false,
+    "extensions": [".mp4"],
+    "random": true,
+    "seed": 42,
+    "exclude_substrings": ["-Xh4BNbxpI8"]
+  },
+  "data": {
+    "path": "~/code/<project>/world/videos/highway-def/phrases.json",
+    "items_path": "phrases",
+    "name_key": "phrase"
+  },
+  "crop": { "w": 608, "h": 1080 },
+  "outline_px": 1,
+  "spacer_size": 70,
+  "layout": "anchored",
+  "geometry": {
+    "phrase_center_y": 830,
+    "gap_px": 180
+  },
+  "elements": [
+    {
+      "name": "hook",
+      "source": "literal",
+      "value": "English words that sound like poetry Part {idx}",
+      "split_before": " Part",
+      "font": "PT Serif",
+      "size": 70,
+      "italic": true
+    },
+    {
+      "name": "phrase",
+      "source": "data",
+      "data_key": "phrase",
+      "font": "Inter 24pt",
+      "size": 120,
+      "bold": true,
+      "case": "upper"
+    },
+    {
+      "name": "definition",
+      "source": "data",
+      "data_key": "why",
+      "transform": "before_emdash",
+      "font": "Inter 24pt",
+      "size": 70,
+      "bold": true,
+      "wrap_chars": 28,
+      "max_lines": 3
+    }
+  ]
+}

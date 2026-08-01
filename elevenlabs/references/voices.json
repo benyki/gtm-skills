@@ -1,0 +1,109 @@
+{
+ "_comment": "Canonical voice IDs we use. Add new voices here, never hardcode IDs in scripts. Defaults are marked per (language, gender).",
+ "defaults": {
+  "french": {
+   "female": "amelie",
+   "male": "kevan"
+  },
+  "english": {
+   "female": "sara",
+   "male": "adam"
+  },
+  "spanish": {
+   "female": "melissa"
+  },
+  "japanese": {
+   "female": "kazuha"
+  },
+  "arabic": {
+   "female": "salma"
+  },
+  "korean": {
+   "female": "hanabad"
+  }
+ },
+ "voices": {
+  "amelie": {
+   "voice_id": "39BbQfJTexvpWtOQZ4Xr",
+   "name": "Amelie",
+   "language": "french",
+   "gender": "female",
+   "notes": "Default French female. Library: https://elevenlabs.io/app/voice-library?voiceId=39BbQfJTexvpWtOQZ4Xr"
+  },
+  "kevan": {
+   "voice_id": "AYfOkr1hDQYbhigmRZ16",
+   "name": "Kevan",
+   "language": "french",
+   "gender": "male",
+   "notes": "Default French male."
+  },
+  "sara": {
+   "voice_id": "BXeZVLBk6Y5kMHj9cDEY",
+   "name": "Sara",
+   "language": "english",
+   "gender": "female",
+   "notes": "Generic English/multilingual female."
+  },
+  "adam": {
+   "voice_id": "s3TPKV1kjDlVtZbl4Ksh",
+   "name": "Adam",
+   "language": "english",
+   "gender": "male",
+   "notes": "Generic English/multilingual male."
+  },
+  "melissa": {
+   "voice_id": "kjHz50TasdqbpbfK4uaN",
+   "name": "Melissa",
+   "language": "spanish",
+   "gender": "female",
+   "accent": "Costa Rica",
+   "notes": "Default Spanish female. Use for UGC and conversational content."
+  },
+  "fiona": {
+   "voice_id": "ElGl0o9qwShv7sa2jOeA",
+   "name": "Fiona",
+   "language": "spanish",
+   "gender": "female",
+   "accent": "Spain",
+   "style": "slow, deep",
+   "notes": "Spanish backup. Use ONLY for educational or storytelling content — slow and deep delivery, not suited for UGC or conversational."
+  },
+  "river-faith": {
+   "voice_id": "v6KgbPaQh6lAmMpmmtcH",
+   "name": "River Faith",
+   "language": "english",
+   "gender": "female",
+   "notes": "Dream Desk primary narrator. Library: https://elevenlabs.io/app/voice-library?voiceId=v6KgbPaQh6lAmMpmmtcH"
+  },
+  "adam-spencer": {
+   "voice_id": "xKhbyU7E3bC6T89Kn26c",
+   "name": "Adam Spencer",
+   "language": "english",
+   "gender": "male",
+   "notes": "Dream Desk fallback narrator. Library: https://elevenlabs.io/app/voice-library?voiceId=xKhbyU7E3bC6T89Kn26c"
+  },
+  "kazuha": {
+   "voice_id": "qbfQuoRJv1T3ei3qV4bc",
+   "name": "Kazuha",
+   "language": "japanese",
+   "gender": "female",
+   "notes": "Default Japanese female. Native JA delivery for series-a-jp. Library: https://elevenlabs.io/app/voice-library?voiceId=qbfQuoRJv1T3ei3qV4bc"
+  },
+  "salma": {
+   "voice_id": "a1KZUXKFVFDOb33I1uqr",
+   "name": "Salma",
+   "language": "arabic",
+   "gender": "female",
+   "accent": "Levantine",
+   "notes": "Default Arabic (Levantine) female. Native Arabic delivery for series-a-ar; use with model eleven_multilingual_v2. Library: https://elevenlabs.io/app/voice-library?voiceId=a1KZUXKFVFDOb33I1uqr"
+  },
+  "hanabad": {
+   "voice_id": "YDseIkMzKtO5bK1Ehnev",
+   "name": "Hanabad - Calm & Friendly",
+   "language": "korean",
+   "gender": "female",
+   "accent": "Seoul",
+   "notes": "Default Korean female. Native Seoul delivery for series-a-ko; reads Hangul naturally (round-trip STT verified). Use with model eleven_multilingual_v2. Library: https://elevenlabs.io/app/voice-library?voiceId=YDseIkMzKtO5bK1Ehnev"
+  }
+ }
+}
