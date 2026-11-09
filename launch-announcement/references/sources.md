@@ -22,7 +22,7 @@ r/Entrepreneur (4.8M), r/productivity (4M), r/business (2.5M), r/smallbusiness
 r/Business_Ideas (359K), r/SaaS (341K).
 
 **Contributes:** the seed list in `reddit.md`. Doubles as a channel list for
-`engine-social` and a mining list for `engine-seo`.
+`gtm-social` and a mining list for `gtm-seo`.
 
 **Trust:** the subreddits are real and well chosen. It's a list with no method —
 the fit notes and rules in `reddit.md` are added, not sourced.
@@ -112,7 +112,7 @@ Verbatim:
 mention of TAAFT among the five.
 
 **Trust:** high, and it's the correction that matters most for someone who just
-installed `engine-social` and has 40 followers. Asked in the replies whether you
+installed `gtm-social` and has 40 followers. Asked in the replies whether you
 need an audience first, [@marclou](https://x.com/marclou) answered:
 *"Building an audience is a byproduct of winning."*
 

@@ -60,5 +60,5 @@ time. Don't edit the post to add marketing later; people notice.
 ## What to take away
 
 Not the upvotes. The three people who described a problem you didn't know they
-had — those go in `shared/insights.md`, and they're the next `engine-seo` article
-and the next `engine-outreach` angle.
+had — those go in the shiplist's Log, and they're the next `gtm-seo` article
+and the next `gtm-outreach` angle.
