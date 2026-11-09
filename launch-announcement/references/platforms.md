@@ -129,6 +129,15 @@ treats "here's my product" posts accordingly.
 - Numbers are the currency. Revenue, users, churn — real ones. Vague posts get ignored
 - Answer every comment. The audience here is other founders, which means low conversion to users and high conversion to advice worth having
 
+### DEV (dev.to)
+
+**Not a launch platform**, same as Indie Hackers: no ranking, no launch day. It's a
+developer blogging community, and a launch there is an article.
+
+- Write the build story (the hard part, the stack, a snippet) and tag it `#showdev`. A post that is only "we launched X" gets nothing
+- Cross-post from our own blog with `canonical_url` set to the original, so the search credit stays with us
+- Dev tools and anything with an interesting technical story fit. Consumer apps with no technical angle mostly don't
+
 ### DevHunt
 
 `[H]` weight **1**.
@@ -186,6 +195,6 @@ Tekpon, Appscribed.
 
 These rank for **"<competitor> alternative"** — a query with buying intent that
 never stops being searched. Listing here does approximately nothing on launch day
-and keeps working for years. Treat as `engine-seo` work: name the competitor you're
+and keeps working for years. Treat as `gtm-seo` work: name the competitor you're
 an alternative to, say honestly what they do better, and let the comparison do the
 selling.

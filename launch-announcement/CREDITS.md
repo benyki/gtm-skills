@@ -11,12 +11,12 @@ If you use this skill and it works, the people below are why. Go follow them.
 ## Primary sources
 
 ### [@Neerajscript](https://x.com/Neerajscript)
-**[Get your first users through these subreddits](https://x.com/Neerajscript/status/2005520668000145645)** · 29 Dec 2025
+**[Get your first users through these subreddits](https://x.com/Neerajscript/status/2005520668000145645)**, 29 Dec 2025
 
 Ten subreddits with subscriber counts. The seed list behind `references/reddit.md`.
 
 ### [@eliana_jordan](https://x.com/eliana_jordan)
-**[Launch platform post-mortem](https://x.com/eliana_jordan/status/1944348597648244850)** · 13 Jul 2025
+**[Launch platform post-mortem](https://x.com/eliana_jordan/status/1944348597648244850)**, 13 Jul 2025
 
 Six platforms rated by what actually happened — Peerlist, Product Hunt, Uneed,
 TinyLaunch, Fazier, tinystartups. The `[E]` notes in `references/platforms.md`.
@@ -24,18 +24,18 @@ The most useful of the five, because she separated ranking from outcome and
 published the losses alongside the wins.
 
 ### [@hridoyreh](https://x.com/hridoyreh)
-**[100+ places to launch your startup](https://x.com/hridoyreh/status/2036816122096533589)** · 25 Mar 2026
+**[100+ places to launch your startup](https://x.com/hridoyreh/status/2036816122096533589)**, 25 Mar 2026
 
 All 107 entries, reproduced in `references/directories.md`.
 
 ### [@Hartdrawss](https://x.com/Hartdrawss)
-**[The real list of launch spots I actually submit every client MVP](https://x.com/Hartdrawss/status/2020430122562531608)** · 8 Feb 2026
+**[The real list of launch spots I actually submit every client MVP](https://x.com/Hartdrawss/status/2020430122562531608)**, 8 Feb 2026
 
 37 platforms, each with a priority weight. The ranking that makes the 107-list
 usable, and the tier structure the whole skill is organised around.
 
 ### [@marclou](https://x.com/marclou)
-**[Launching your startup on a new Twitter account will flop](https://x.com/marclou/status/1933506642051805518)** · 13 Jun 2025
+**[Launching your startup on a new Twitter account will flop](https://x.com/marclou/status/1933506642051805518)**, 13 Jun 2025
 
 The ordering principle at the top of `SKILL.md`: launch where follower count is
 irrelevant, *then* post the result. Also the only source to name TAAFT.
@@ -48,7 +48,7 @@ From his replies to that thread, on whether you need an audience first —
 ## Related
 
 ### [@hthieblot](https://x.com/hthieblot)
-**[You can relaunch the same product on X every few weeks](https://x.com/hthieblot/status/1937561367604846802)** · 24 Jun 2025
+**[You can relaunch the same product on X every few weeks](https://x.com/hthieblot/status/1937561367604846802)**, 24 Jun 2025
 
 First post 3K views, two weeks later 200K — *"same video, slightly different
 one-liner, different angle."* Behind the "a launch is repeatable, not a one-shot"
@@ -68,7 +68,7 @@ from the posts themselves.
 | [@jmqcooper](https://x.com/jmqcooper) | Asked whether you need an audience before launching — prompting the reply that became the ordering principle | `SKILL.md`, "the correction that comes first" |
 | [@rcwhiteley](https://x.com/rcwhiteley) | Asked where to launch a non-technical product (a diving app) and got no answer | The "no non-tech coverage" gap in `references/sources.md` |
 | [@anshrathodfr](https://x.com/anshrathodfr) | Asked what TAAFT stood for | The expansion in `references/platforms.md` |
-| [@askOkara](https://x.com/askOkara) | Suggested adding TikTok to the launch mix, since the algorithm tests on a small group first | Noted, deliberately out of scope — that's `engine-video`, not a launch platform |
+| [@askOkara](https://x.com/askOkara) | Suggested adding TikTok to the launch mix, since the algorithm tests on a small group first | Noted, deliberately out of scope — that's `gtm-video`, not a launch platform |
 
 ---
 

@@ -66,4 +66,4 @@ The post has to work **as a post**, not as an ad with a link stapled on.
 - **Answer everything for the first three hours.** The early comment velocity decides whether it spreads
 - **Take the criticism straight.** "Fair, that's on the list" outperforms a defence every time
 - **Don't edit the post to add marketing later.** People notice
-- The strongest outcome isn't upvotes — it's three people describing a problem you didn't know they had. Put those in `shared/insights.md`; they're the next `engine-seo` article and the next `engine-outreach` angle
+- The strongest outcome isn't upvotes — it's three people describing a problem you didn't know they had. Write those in the shiplist's Log; they're the next `gtm-seo` article and the next `gtm-outreach` angle

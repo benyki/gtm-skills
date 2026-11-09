@@ -3,8 +3,8 @@
 Write this once, in one sitting, then paste it into all ~90 tail directories.
 Every one of them asks for some subset of these fields.
 
-Store the filled version at `runs/<run_id>/output/directory-pack.md` so the next
-launch starts from it.
+Store the filled version at `workflows/shiplist/copy/directory-listing.md` so the
+next launch starts from it.
 
 ---
 
@@ -59,9 +59,9 @@ Tag each listing so referral traffic is attributable:
 ?utm_source=<directory>&utm_medium=directory&utm_campaign=launch
 ```
 
-After two weeks, read the numbers and put them in the run log. If the whole tail
-sent 11 visits, that's the answer for next time — and `engine-loop` should have it
-rather than recommending the same batch again.
+After two weeks, read the numbers and put them in the shiplist's Log. If the whole tail
+sent 11 visits, that's the answer for next time, so the next launch doesn't
+repeat the same batch.
 
 ## Don't
 

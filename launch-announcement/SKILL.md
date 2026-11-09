@@ -1,6 +1,6 @@
 ---
 name: launch-announcement
-description: Plans and writes a product launch across the places that actually send users — Reddit, Hacker News, Product Hunt, Uneed and the long tail of launch directories — with per-platform copy, a submission order, and a run logged back to gtm-engine. Use when the user says "launch my product", "where should I launch", "write my Product Hunt post", "Show HN", "submit to directories", "launch announcement", or has just shipped something and has no users yet.
+description: The reference library behind a product launch — what each place that actually sends users wants (Reddit, Hacker News, Product Hunt, Uneed and 107 launch directories), the per-platform copy templates, and who said what. To plan and run a launch, use gtm-shiplist, which reads this library. Use for a platform's rules, timing or format, a launch copy template (Product Hunt, Show HN, Reddit, directory listing), the directory list, "where should I launch" or "write my Product Hunt post".
 ---
 
 # launch-announcement
@@ -8,8 +8,9 @@ description: Plans and writes a product launch across the places that actually s
 The first users don't come from your own audience. They come from platforms where
 nobody knows who you are and it doesn't matter.
 
-This skill turns "I shipped something" into a dated submission plan plus the actual
-copy for each destination. It writes; the user submits. Nothing is posted
+This skill is the reference: what each platform wants and the copy templates. To
+plan and run a launch, use `gtm-shiplist`; it and the other `gtm-*` skills named here
+are in [benyki/gtm-engine](https://github.com/benyki/gtm-engine). The agent writes; the user submits. Nothing is posted
 automatically — every platform on this list bans accounts for automated submission,
 and a banned account on launch day costs more than the launch was worth.
 
@@ -19,7 +20,8 @@ and a banned account on launch day costs more than the launch was worth.
 |---|---|
 | Which platform, what it wants, what goes wrong | `references/platforms.md` |
 | Reddit — subreddits, rules, the self-promo trap | `references/reddit.md` |
-| The long tail: 107 directories + a ranked worklist | `references/directories.md` |
+| The long tail: 107 directories, a ranked worklist, and 27 more from a 50-list | `references/directories.md` |
+| Copy templates: Product Hunt, Show HN, Reddit post, directory listing | `templates/` |
 | Who said what, and how much to trust it | `references/sources.md` |
 | Authors to credit and follow | `CREDITS.md` |
 
@@ -41,88 +43,13 @@ page of Hacker News does not care how many followers you have. So the order is:
 
 Winning is how you get the audience, not the other way round. This also means a
 launch is not a one-shot: the same product can be relaunched every few weeks with
-a different angle (see `engine-loop`, and the related source in `references/sources.md`).
+a different angle (`gtm-shiplist` writes the relaunch date down; the source is in `references/sources.md`).
 
 ---
 
 ## The run
 
-### 1. Read the product
-
-From the gtm-engine workspace when there is one:
-
-- `shared/brand.md` — who it's for, the voice, banned words and claims
-- `shared/channels.json` — where they already post
-- the repo itself — README, landing copy, pricing
-
-If there's no workspace, ask for three things and don't start without them: **what
-it does in one sentence**, **who it's for**, and **what the user does in the first
-60 seconds**. Every piece of launch copy below is derived from those three.
-
-### 2. Decide the shape of the launch
-
-Ask which one this is — it changes the platform set entirely:
-
-| Shape | Goes to |
-|---|---|
-| Pre-launch / waitlist | BetaList, r/SideProject, Peerlist — not Product Hunt |
-| Public v1, dev tool | Hacker News, DevHunt, Reddit, Product Hunt |
-| Public v1, AI product | TAAFT, Uneed, Product Hunt, the AI directories |
-| Public v1, consumer app | Product Hunt, Reddit, Uneed, TikTok/Reels via `engine-video` |
-| Paid tool wanting cash today | Uneed, AppSumo and the lifetime-deal tier — read the warning in `references/platforms.md` |
-
-### 3. Build the submission calendar
-
-Never submit everywhere on the same day. One flagship, then the tail:
-
-- **Day 0 (Tue–Thu)** — the one platform you're optimising for. Everything else waits
-- **Day 0 + 2h** — Reddit, one subreddit only, written for that subreddit
-- **Day 1–3** — the tier-2 platforms with real audiences (Uneed, Fazier, DevHunt, Indie Hackers)
-- **Week 2+** — the directory tail, batched. These are backlinks, not traffic
-
-Pick Day 0 from `references/platforms.md` — Product Hunt and Hacker News have
-specific hours that matter and they conflict with each other.
-
-### 4. Write the copy
-
-One file per destination, in the user's voice, following that platform's format.
-Templates are in `templates/`. The rules that apply everywhere:
-
-- **Every platform gets its own copy.** The same paragraph pasted into HN, Reddit and Product Hunt fails on at least two of them. HN wants no marketing language at all; Reddit wants a story with the link buried; Product Hunt wants a benefit in 60 characters
-- **Lead with what it does, not why you built it.** The founder story goes in the first comment, not the post
-- **Name the price.** "Free tier + $9/mo" beats "affordable pricing" everywhere
-- **Say what it doesn't do.** On HN and Reddit this reads as honesty and buys you the benefit of the doubt in the comments
-
-Run the draft through `no-ai-slop-writting` before showing it. Launch copy is the
-single most obvious place AI phrasing gets spotted, and on Reddit and HN getting
-spotted is fatal.
-
-### 5. Prepare the comment replies
-
-More launches die in the comments than in the post. Before Day 0, write:
-
-- The maker's first comment for each platform (what you built, why, what's next)
-- Answers to the three hardest questions — usually *why not just use X*, *what's your moat*, and *is this just a wrapper*
-- The pricing answer, in one sentence, with no hedging
-
-### 6. Log it
-
-```bash
-python3 ~/.agents/skills/engine-loop/scripts/runlog.py new --workflow social --channel launch \
-  --experiment exp-launch --arm default --template product-hunt.md
-```
-
-Write each piece of copy to `runs/<run_id>/output/`, one file per platform. After
-submitting:
-
-```bash
-python3 ~/.agents/skills/engine-loop/scripts/runlog.py publish --run <run_id> --url https://...
-```
-
-Record the **rank and the referral traffic**, not the upvotes. A #1 that sent 40
-visitors is worse than a #9 that sent 400, and only the second one should shape the
-next launch. Set `metric_delay_hours` to 48 on the `launch` channel in
-`shared/channels.json` — directory traffic peaks and dies inside two days.
+To plan and run a launch, use `gtm-shiplist`.
 
 ---
 
@@ -133,13 +60,13 @@ next launch. Set `metric_delay_hours` to 48 on the `launch` channel in
 - **One subreddit on day one.** Cross-posting the same text to eight subreddits is the fastest way to a sitewide Reddit ban — see `references/reddit.md`
 - **Never submit to a platform you haven't read the rules page of that week.** These sites change their submission terms constantly and half the advice online is stale
 - **Don't fake the launch.** No sockpuppet accounts, no bought upvotes, no "we're a team of 12" when it's one person. It gets found and the post becomes the story
-- **A launch is not a growth strategy.** It's a spike. What happens on day 4 is the actual product question — hand back to `engine-seo`, `engine-social` or `engine-outreach` for that
+- **A launch is not a growth strategy.** It's a spike. What happens on day 4 is the actual product question — hand back to `gtm-seo`, `gtm-social` or `gtm-outreach` for that
 
 ## Going further
 
-- `engine-loop` — score this launch against the next one instead of guessing
-- `engine-social` — turn the result ("#1 on Uneed") into the posts that build the audience
-- `engine-seo` — the AlternativeTo / OpenAlternative listings in `references/directories.md` are evergreen search surface, not launch-day traffic
+- `gtm-shiplist` — plan and run the launch day, then close it with the numbers and a relaunch date
+- `gtm-social` — turn the result ("#1 on Uneed") into the posts that build the audience
+- `gtm-seo` — the AlternativeTo / OpenAlternative listings in `references/directories.md` are evergreen search surface, not launch-day traffic
 
 ---
 
