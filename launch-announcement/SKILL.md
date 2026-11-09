@@ -9,7 +9,8 @@ The first users don't come from your own audience. They come from platforms wher
 nobody knows who you are and it doesn't matter.
 
 This skill is the reference: what each platform wants and the copy templates. To
-plan and run a launch, use `gtm-shiplist`. The agent writes; the user submits. Nothing is posted
+plan and run a launch, use `gtm-shiplist`; it and the other `gtm-*` skills named here
+are in [benyki/gtm-engine](https://github.com/benyki/gtm-engine). The agent writes; the user submits. Nothing is posted
 automatically — every platform on this list bans accounts for automated submission,
 and a banned account on launch day costs more than the launch was worth.
 
@@ -20,6 +21,7 @@ and a banned account on launch day costs more than the launch was worth.
 | Which platform, what it wants, what goes wrong | `references/platforms.md` |
 | Reddit — subreddits, rules, the self-promo trap | `references/reddit.md` |
 | The long tail: 107 directories, a ranked worklist, and 27 more from a 50-list | `references/directories.md` |
+| Copy templates: Product Hunt, Show HN, Reddit post, directory listing | `templates/` |
 | Who said what, and how much to trust it | `references/sources.md` |
 | Authors to credit and follow | `CREDITS.md` |
 
